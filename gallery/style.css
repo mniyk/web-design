@@ -1,0 +1,36 @@
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    border: solid 2px #000;
+    width: calc(30% - 40px);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.sample-box {
+    height: 150px;
+    width: 100%;
+    background-color: silver;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
